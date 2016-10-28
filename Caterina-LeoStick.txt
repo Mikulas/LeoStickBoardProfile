@@ -1,4 +1,4 @@
-Caterina bootloader, built as v2.1 of LeoStick bootloader
+Caterina bootloader, built as v2.1-duckie of LeoStick bootloader
 
 Builds against LUFA version 111009
 make version 3.81
