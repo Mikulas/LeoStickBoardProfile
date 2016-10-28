@@ -1,1 +1,12 @@
 /.vagrant
+/lufa-LUFA-111009/**/*.o
+/lufa-LUFA-111009/**/*.lst
+/bootloader/.dep
+/bootloader/*.eep
+/bootloader/*.elf
+/bootloader/*.lss
+/bootloader/*.map
+/bootloader/*.sym
+/bootloader/*.lst
+/bootloader/*.sym
+/bootloader/*.o
