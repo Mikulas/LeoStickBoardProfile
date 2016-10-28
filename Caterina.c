@@ -62,7 +62,7 @@ uint16_t TxLEDPulse = 0; // time remaining for Tx LED pulse
 uint16_t RxLEDPulse = 0; // time remaining for Rx LED pulse
 
 /* Bootloader timeout timer */
-#define TIMEOUT_PERIOD	8000
+#define TIMEOUT_PERIOD	1500
 uint16_t Timeout = 0;
 
 uint16_t bootKey = 0x7777;
@@ -491,7 +491,7 @@ void CDC_Task(void)
 		* leaving just a few hundred milliseconds so the
 		* bootloder has time to respond and service any
 		* subsequent requests */
-		Timeout = TIMEOUT_PERIOD - 500;
+		Timeout = TIMEOUT_PERIOD - 300;
 
 		/* Re-enable RWW section - must be done here in case
 		 * user has disabled verification on upload.  */
